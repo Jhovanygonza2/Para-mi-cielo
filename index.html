@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f2e9">
+  <meta name="description" content="Una carta pequeña, escrita con mucho cariño para Elizabeth.">
+  <title>Para Elizabeth, con cariño</title>
+  <link rel="stylesheet" href="styles.css?v=34">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js" defer></script>
+  <script src="script.js?v=34" defer></script>
+</head>
+<body>
+  <main class="page">
+    <span class="ambient ambient-left" aria-hidden="true"></span>
+    <span class="ambient ambient-right" aria-hidden="true"></span>
+    <div class="falling-particles" aria-hidden="true"></div>
+
+    <header class="hero-copy">
+      <p class="eyebrow"><span aria-hidden="true">✦</span> Una pequeña sorpresa <span aria-hidden="true">✦</span></p>
+      <h1>Para <span>Elizabeth</span></h1>
+      <p class="intro">Hay personas que hacen que los días se sientan un poquito más bonitos. Tú eres una de ellas.</p>
+    </header>
+
+    <figure class="garden" aria-label="Ramo de tulipanes">
+      <div class="bouquet" role="img" aria-label="Nueve tulipanes rosados con hojas verdes, envueltos con un lazo">
+        <div class="flower flower-one"><span class="stem"></span><img class="tulip tulip-one" src="assets/twemoji-tulip.svg" alt="" aria-hidden="true"></div>
+        <div class="flower flower-two"><span class="stem"></span><img class="tulip tulip-two" src="assets/twemoji-tulip.svg" alt="" aria-hidden="true"></div>
+        <div class="flower flower-three"><span class="stem"></span><img class="tulip tulip-three" src="assets/twemoji-tulip.svg" alt="" aria-hidden="true"></div>
+        <div class="flower flower-four"><span class="stem"></span><img class="tulip tulip-four" src="assets/twemoji-tulip.svg" alt="" aria-hidden="true"></div>
+        <div class="flower flower-five"><span class="stem"></span><img class="tulip tulip-five" src="assets/twemoji-tulip.svg" alt="" aria-hidden="true"></div>
+        <div class="flower flower-six"><span class="stem"></span><img class="tulip tulip-six" src="assets/twemoji-tulip.svg" alt="" aria-hidden="true"></div>
+        <div class="flower flower-seven"><span class="stem"></span><img class="tulip tulip-seven" src="assets/twemoji-tulip.svg" alt="" aria-hidden="true"></div>
+        <div class="flower flower-eight"><span class="stem"></span><img class="tulip tulip-eight" src="assets/twemoji-tulip.svg" alt="" aria-hidden="true"></div>
+        <div class="flower flower-nine"><span class="stem"></span><img class="tulip tulip-nine" src="assets/twemoji-tulip.svg" alt="" aria-hidden="true"></div>
+        <span class="bouquet-wrap"></span>
+        <span class="bouquet-bow" aria-hidden="true">
+          <span class="bow-tail bow-tail-left"></span>
+          <span class="bow-tail bow-tail-right"></span>
+        </span>
+      </div>
+      <span class="sparkle sparkle-one" aria-hidden="true">✦</span>
+      <span class="sparkle sparkle-two" aria-hidden="true">✧</span>
+      <span class="sparkle sparkle-three" aria-hidden="true">✦</span>
+    </figure>
+
+    <section class="letter-section" aria-label="Una carta para Elizabeth">
+      <p class="letter-caption"><span aria-hidden="true">♡</span> Escrita con cariño <span aria-hidden="true">♡</span></p>
+      <div class="envelope-wrap" id="carta">
+        <article class="letter" id="letter" aria-hidden="true">
+          <p class="letter-kicker">Con mucho cariño</p>
+          <h2>Para Elizabeth ❤️</h2>
+          <p>Todo de ti que me encanta: tus ojitos, tu sonrisa, tu cabello y esa forma tan especial que tienes de ser. Quizá parezcan pequeños detalles, pero son precisamente esas cosas las que hacen que te vea de una manera diferente.</p>
+          <p>Me gusta poder admirarte, saber un poquito más de ti y descubrir esa persona tan bonita que eres.</p>
+          <p class="signature">Con mucho cariño ♡</p>
+        </article>
+        <div class="envelope" aria-hidden="true">
+          <div class="flap"></div>
+          <span class="envelope-note">Una carta para Elizabeth</span>
+          <div class="seal">E</div>
+        </div>
+      </div>
+
+      <button class="open-button" id="openLetter" type="button" aria-expanded="false" aria-controls="letter">
+        <span class="button-label">Abrir mi carta</span>
+        <span class="button-icon" aria-hidden="true">✿</span>
+      </button>
+    </section>
+
+    <footer>
+      <span aria-hidden="true">—</span> Hecho con cariño, solo para ti <span aria-hidden="true">—</span>
+      <a class="art-credit" href="https://github.com/twitter/twemoji" target="_blank" rel="noreferrer">Tulipanes: Twemoji</a>
+      <a class="art-license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a>
+    </footer>
+  </main>
+
+</body>
+</html>
